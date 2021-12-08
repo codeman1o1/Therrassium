@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "therrassium",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Therrassium",
+  "description": "Therrassium is a mod that adds Therrassium stuff like armor and tools. It is just a hobby project :)",
   "authors": [
-    "Me!"
+    "codeman1o1"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": "https://github.com/codeman1o1/Therrassium"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/therrassium/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "me.codeman1o1.therrassium.Therrassium"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
 
   "depends": {

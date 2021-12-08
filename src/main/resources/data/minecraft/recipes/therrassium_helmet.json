@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "jjj",
+    "j j"
+  ],
+  "key": {
+    "j": {
+      "item": "therrassium:therrassium_ingot"
+    }
+  },
+  "result": {
+    "item": "therrassium:therrassium_helmet",
+    "count": 1
+  }
+}

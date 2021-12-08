@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "jj",
+    "s ",
+    "s "
+  ],
+  "key": {
+    "j": {
+      "item": "therrassium:therrassium_ingot"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "therrassium:therrassium_hoe",
+    "count": 1
+  },
+  "group": "Therrassium Hoe"
+}

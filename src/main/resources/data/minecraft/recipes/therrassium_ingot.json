@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "therrassium:therrassium_block"
+    }
+  ],
+  "result": {
+    "item": "therrassium:therrassium_ingot",
+    "count": 9
+  },
+  "group": "Therrassium Ingot"
+}
