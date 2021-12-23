@@ -2,12 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "jjj",
-    "jjj",
+    "jnj",
     "jjj"
   ],
   "key": {
     "j": {
       "item": "therrassium:therrassium_ingot"
+    },
+    "n": {
+      "item": "minecraft:nether_star"
     }
   },
   "result": {
