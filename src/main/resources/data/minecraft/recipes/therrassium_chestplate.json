@@ -1,17 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "j j",
-    "jjj",
-    "jjj"
-  ],
-  "key": {
-    "j": {
-      "item": "therrassium:therrassium_ingot"
-    }
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_chestplate"
+  },
+  "addition": {
+    "item": "therrassium:therrassium_block"
   },
   "result": {
-    "item": "therrassium:therrassium_chestplate",
-    "count": 1
+    "item": "therrassium:therrassium_chestplate"
   }
 }

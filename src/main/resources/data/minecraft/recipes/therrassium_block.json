@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "jjj",
-    "jnj",
-    "jjj"
+    "iii",
+    "iei",
+    "iii"
   ],
   "key": {
-    "j": {
+    "i": {
       "item": "therrassium:therrassium_ingot"
     },
-    "n": {
-      "item": "minecraft:nether_star"
+    "e": {
+      "item": "minecraft:end_crystal"
     }
   },
   "result": {

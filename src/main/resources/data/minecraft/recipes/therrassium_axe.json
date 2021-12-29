@@ -1,21 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "jj",
-    "js",
-    " s"
-  ],
-  "key": {
-    "j": {
-      "item": "therrassium:therrassium_ingot"
-    },
-    "s": {
-      "item": "minecraft:stick"
-    }
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_axe"
+  },
+  "addition": {
+    "item": "therrassium:therrassium_block"
   },
   "result": {
-    "item": "therrassium:therrassium_axe",
-    "count": 1
-  },
-  "group": "Therrassium Axe"
+    "item": "therrassium:therrassium_axe"
+  }
 }
