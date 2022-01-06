@@ -9,5 +9,8 @@
   "item.therrassium.therrassium_helmet": "Therrassium Helmet",
   "item.therrassium.therrassium_chestplate": "Therrassium Chestplate",
   "item.therrassium.therrassium_leggings": "Therrassium Leggings",
-  "item.therrassium.therrassium_boots": "Therrassium Boots"
+  "item.therrassium.therrassium_boots": "Therrassium Boots",
+  "enchantment.therrassium.slowing": "Slowing",
+  "enchantment.therrassium.smited": "Smited",
+  "enchantment.therrassium.levitating": "Levitating"
 }

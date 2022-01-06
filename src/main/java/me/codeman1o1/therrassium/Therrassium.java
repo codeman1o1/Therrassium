@@ -8,7 +8,8 @@ public class Therrassium implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        me.codeman1o1.therrassium.registry.ModItems.registerItems();
-        me.codeman1o1.therrassium.registry.ModBlocks.registerBlocks();
+        me.codeman1o1.therrassium.registry.Items.registerItems();
+        me.codeman1o1.therrassium.registry.Blocks.registerBlocks();
+        me.codeman1o1.therrassium.registry.Enchantments.registerEnchantments();
     }
 }

@@ -17,9 +17,9 @@ public class TherrassiumBlock extends Block {
         super(settings);
     }
 
-    @SuppressWarnings("deprecation")
     @Override
-    public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
+    public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand,
+            BlockHitResult hit) {
         if (!world.isClient) {
             player.addStatusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 1200));
             player.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 1200));

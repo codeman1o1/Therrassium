@@ -9,7 +9,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class ModBlocks {
+public class Blocks {
     public static final Block THERRASSIUM_BLOCK = new TherrassiumBlock(FabricBlockSettings
             .of(Material.METAL)
             .requiresTool()

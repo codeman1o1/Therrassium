@@ -1,6 +1,6 @@
 package me.codeman1o1.therrassium.materials;
 
-import me.codeman1o1.therrassium.registry.ModItems;
+import me.codeman1o1.therrassium.registry.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
@@ -29,6 +29,6 @@ public class TherrassiumToolMaterial implements ToolMaterial {
     }
 
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(ModItems.THERRASSIUM_INGOT);
+        return Ingredient.ofItems(Items.THERRASSIUM_INGOT);
     }
 }

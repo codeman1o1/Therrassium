@@ -1,6 +1,6 @@
 package me.codeman1o1.therrassium.materials;
 
-import me.codeman1o1.therrassium.registry.ModItems;
+import me.codeman1o1.therrassium.registry.Items;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.recipe.Ingredient;
@@ -11,8 +11,8 @@ public class TherrassiumArmorMaterial implements ArmorMaterial {
 
     public static final TherrassiumArmorMaterial INSTANCE = new TherrassiumArmorMaterial();
 
-    private static final int[] DURABILTY = {814, 1184, 1110, 962};
-    private static final int[] PROTECION = {6, 12 , 16, 6};
+    private static final int[] DURABILTY = { 814, 1184, 1110, 962 };
+    private static final int[] PROTECION = { 6, 12, 16, 6 };
 
     @Override
     public int getDurability(EquipmentSlot slot) {
@@ -36,7 +36,7 @@ public class TherrassiumArmorMaterial implements ArmorMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(ModItems.THERRASSIUM_INGOT);
+        return Ingredient.ofItems(Items.THERRASSIUM_INGOT);
     }
 
     @Override
