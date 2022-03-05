@@ -25,9 +25,11 @@ public class Levitating extends Enchantment {
 
     @Override
     public void onTargetDamaged(LivingEntity user, Entity target, int level) {
-        if (target instanceof LivingEntity) {
-            ((LivingEntity) target)
-                    .addStatusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 20, level));
+        if (!user.getWorld().isClient()) {
+            if (target instanceof LivingEntity) {
+                ((LivingEntity) target)
+                        .addStatusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 20, level));
+            }
         }
 
         super.onTargetDamaged(user, target, level);
