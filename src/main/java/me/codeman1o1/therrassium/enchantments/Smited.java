@@ -21,7 +21,7 @@ public class Smited extends Enchantment {
 
     @Override
     public void onTargetDamaged(LivingEntity user, Entity target, int level) {
-        if (!user.getWorld().isClient()) {
+        if (!user.world.isClient) {
             if (target instanceof LivingEntity) {
                 LightningEntity lightningEntity = (LightningEntity) EntityType.LIGHTNING_BOLT.create(target.world);
                 lightningEntity.refreshPositionAfterTeleport(Vec3d.ofBottomCenter(target.getBlockPos()));
