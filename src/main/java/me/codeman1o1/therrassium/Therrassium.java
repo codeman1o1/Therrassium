@@ -1,6 +1,7 @@
 package me.codeman1o1.therrassium;
 
 import net.fabricmc.api.ModInitializer;
+import me.codeman1o1.therrassium.registry.*;
 
 public class Therrassium implements ModInitializer {
 
@@ -8,8 +9,10 @@ public class Therrassium implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        me.codeman1o1.therrassium.registry.Items.registerItems();
-        me.codeman1o1.therrassium.registry.Blocks.registerBlocks();
-        me.codeman1o1.therrassium.registry.Enchantments.registerEnchantments();
+        Items.registerItems();
+        Blocks.registerBlocks();
+        Enchantments.registerEnchantments();
+        Effects.registerEffects();
+        AddPotionRecipes.registerPotionRecipes();
     }
 }

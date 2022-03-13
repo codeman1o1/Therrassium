@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.codeman1o1.therrassium.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": ["ExperiencedMixin", "CallRegisterPotionRecipe"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

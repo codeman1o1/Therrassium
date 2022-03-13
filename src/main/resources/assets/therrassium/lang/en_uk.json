@@ -13,5 +13,18 @@
   "enchantment.therrassium.slowing": "Slowing",
   "enchantment.therrassium.smited": "Smited",
   "enchantment.therrassium.levitating": "Levitating",
-  "enchantment.therrassium.infected": "Infected"
+  "enchantment.therrassium.infected": "Infected",
+  "effect.therrassium.experienced": "Experienced",
+  "item.minecraft.potion.effect.experienced": "Potion of Experienced",
+  "item.minecraft.potion.effect.strong_experienced": "Potion of Experienced",
+  "item.minecraft.potion.effect.long_experienced": "Potion of Experienced",
+  "item.minecraft.splash_potion.effect.experienced": "Splash Potion of Experienced",
+  "item.minecraft.splash_potion.effect.strong_experienced": "Splash Potion of Experienced",
+  "item.minecraft.splash_potion.effect.long_experienced": "Splash Potion of Experienced",
+  "item.minecraft.lingering_potion.effect.experienced": "Lingering Potion of Experienced",
+  "item.minecraft.lingering_potion.effect.strong_experienced": "Lingering Potion of Experienced",
+  "item.minecraft.lingering_potion.effect.long_experienced": "Lingering Potion of Experienced",
+  "item.minecraft.tipped_arrow.effect.experienced": "Arrow of Experienced",
+  "item.minecraft.tipped_arrow.effect.strong_experienced": "Arrow of Experienced",
+  "item.minecraft.tipped_arrow.effect.long_experienced": "Arrow of Experienced"
 }
