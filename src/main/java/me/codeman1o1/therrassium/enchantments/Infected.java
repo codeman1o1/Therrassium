@@ -22,8 +22,8 @@ public class Infected extends Enchantment {
     @Override
     public void onTargetDamaged(LivingEntity user, Entity target, int level) {
         if (!user.world.isClient && target instanceof LivingEntity livingEntityTarget) {
-            final Collection<StatusEffectInstance> active_effects = user.getStatusEffects();
-            for (StatusEffectInstance effect : active_effects) {
+            final Collection<StatusEffectInstance> activeEffects = user.getStatusEffects();
+            for (StatusEffectInstance effect : activeEffects) {
                 livingEntityTarget.addStatusEffect(effect);
             }
         }
