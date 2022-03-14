@@ -16,8 +16,8 @@ public abstract class ExperiencedMixin {
     @Shadow
     private int amount;
 
-    @Inject(at = @At("HEAD"), method = "onPlayerCollision()V")
-    private void onPlayerCollision(PlayerEntity player, CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "onPlayerCollision")
+    private void therrassiumOnPlayerCollision(PlayerEntity player, CallbackInfo info) {
         if (!player.world.isClient && player.hasStatusEffect((Effects.experienced))) {
             final int AMPLIFIER = player.getStatusEffect(Effects.experienced).getAmplifier();
             final double TEMP_AMOUNT = (double) amount / 4;
