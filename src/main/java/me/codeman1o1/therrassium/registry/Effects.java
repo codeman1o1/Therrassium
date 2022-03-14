@@ -10,22 +10,22 @@ import net.minecraft.potion.Potion;
 
 public class Effects {
         public static StatusEffect experienced;
-        public static Potion experienced_potion;
-        public static Potion experienced_potion_strong;
-        public static Potion experienced_potion_long;
+        public static Potion experiencedPotion;
+        public static Potion experiencedPotionStrong;
+        public static Potion experiencedPotionLong;
 
         // Registering effects
         public static void registerEffects() {
                 experienced = Registry.register(Registry.STATUS_EFFECT,
                                 new Identifier(Therrassium.MOD_ID, "experienced"),
                                 new Experienced());
-                experienced_potion = Registry.register(Registry.POTION,
+                experiencedPotion = Registry.register(Registry.POTION,
                                 new Identifier(Therrassium.MOD_ID, "experienced"),
                                 new Potion(new StatusEffectInstance(experienced, 3600)));
-                experienced_potion_strong = Registry.register(Registry.POTION,
+                experiencedPotionStrong = Registry.register(Registry.POTION,
                                 new Identifier(Therrassium.MOD_ID, "strong_experienced"),
                                 new Potion(new StatusEffectInstance(experienced, 1800, 1)));
-                experienced_potion_long = Registry.register(Registry.POTION,
+                experiencedPotionLong = Registry.register(Registry.POTION,
                                 new Identifier(Therrassium.MOD_ID, "long_experienced"),
                                 new Potion(new StatusEffectInstance(experienced, 9600)));
         }

@@ -11,17 +11,17 @@ public class TherrassiumArmorMaterial implements ArmorMaterial {
 
     public static final TherrassiumArmorMaterial INSTANCE = new TherrassiumArmorMaterial();
 
-    private static final int[] DURABILTY = { 814, 1184, 1110, 962 };
-    private static final int[] PROTECION = { 6, 12, 16, 6 };
+    private static final int[] DURABILITY = { 814, 1184, 1110, 962 };
+    private static final int[] PROTECTION = { 6, 12, 16, 6 };
 
     @Override
     public int getDurability(EquipmentSlot slot) {
-        return DURABILTY[slot.getEntitySlotId()];
+        return DURABILITY[slot.getEntitySlotId()];
     }
 
     @Override
     public int getProtectionAmount(EquipmentSlot slot) {
-        return PROTECION[slot.getEntitySlotId()];
+        return PROTECTION[slot.getEntitySlotId()];
     }
 
     @Override
