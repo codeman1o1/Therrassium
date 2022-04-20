@@ -13,6 +13,6 @@ public class Therrassium implements ModInitializer {
         Blocks.registerBlocks();
         Enchantments.registerEnchantments();
         Effects.registerEffects();
-        AddPotionRecipes.registerPotionRecipes();
+        PotionRecipes.registerPotionRecipes();
     }
 }

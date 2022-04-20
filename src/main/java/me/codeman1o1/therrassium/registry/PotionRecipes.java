@@ -1,11 +1,10 @@
-package me.codeman1o1.therrassium;
+package me.codeman1o1.therrassium.registry;
 
 import me.codeman1o1.therrassium.mixins.CallRegisterPotionRecipe;
-import me.codeman1o1.therrassium.registry.Effects;
 import net.minecraft.item.Items;
 import net.minecraft.potion.Potions;
 
-public class AddPotionRecipes {
+public class PotionRecipes {
         public static void registerPotionRecipes() {
                 CallRegisterPotionRecipe.callRegisterPotionRecipe(Potions.AWKWARD, Items.EXPERIENCE_BOTTLE,
                                 Effects.experiencedPotion);
