@@ -69,6 +69,6 @@ public class Items {
                                 THERRASSIUM_BOOTS);
 
                 Registry.register(Registry.ITEM, new Identifier(Therrassium.MOD_ID, "therrassium_horse_armor"),
-                                new HorseArmorItem(16, "therrassium", new Item.Settings()));
+                                new HorseArmorItem(16, "therrassium", new Item.Settings().fireproof()));
         }
 }
