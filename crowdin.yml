@@ -1,3 +1,0 @@
-files:
-  - source: /src/main/resources/assets/therrassium/lang/en_us.json
-    translation: /src/main/resources/assets/therrassium/lang/%locale_with_underscore%.%file_extension%
