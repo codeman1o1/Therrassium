@@ -16,7 +16,8 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": ["me.codeman1o1.therrassium.Therrassium"]
+    "main": ["me.codeman1o1.therrassium.Therrassium"],
+    "client": ["me.codeman1o1.therrassium.TherrassiumClient"]
   },
   "mixins": ["therrassium.mixins.json"],
 
