@@ -36,6 +36,8 @@ public class Items {
                         EquipmentSlot.LEGS, new Item.Settings().group(ItemGroup.COMBAT).fireproof());
         public static final ArmorItem THERRASSIUM_BOOTS = new ArmorItem(TherrassiumArmorMaterial.INSTANCE,
                         EquipmentSlot.FEET, new Item.Settings().group(ItemGroup.COMBAT).fireproof());
+        public static final HorseArmorItem THERRASSIUM_HORSE_ARMOR = new HorseArmorItem(16, "therrassium",
+                        new Item.Settings().group(ItemGroup.SEARCH).fireproof());
 
         // Block Items
         public static final BlockItem THERRASSIUM_BLOCK = new BlockItem(Blocks.THERRASSIUM_BLOCK,
@@ -69,6 +71,6 @@ public class Items {
                                 THERRASSIUM_BOOTS);
 
                 Registry.register(Registry.ITEM, new Identifier(Therrassium.MOD_ID, "therrassium_horse_armor"),
-                                new HorseArmorItem(16, "therrassium", new Item.Settings().fireproof()));
+                                THERRASSIUM_HORSE_ARMOR);
         }
 }
